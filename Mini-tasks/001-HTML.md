@@ -2,7 +2,7 @@
 
 ## HTML Task to know usage of basic tags.
 
-1. Fix the bugs in below snippet
+1. Fix the bugs in below snippet   --- _fixed_
 
 ```HTML
     <html lang="en">
@@ -22,7 +22,7 @@
         </body>
     </html>
 ```
-2. Try the below one
+2. Try the below one    --- _fixed_
 
 
 ```HTML
@@ -48,7 +48,67 @@
 
 ---
 
-3. Design a contact us form with all fields as required.
+3. Design a contact us form with all fields as required.    --- _code below_
+
+```HTML
+<!-- ##Contact us form with all the fields as required -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Contact us</title>
+</head>
+<body>
+<h1>Contact us</h1>
+<div class="container">
+    <form>
+        <label class="fname">First Name: </label> 
+        <input type="text" id="fname" placeholder="First name"required>
+        <label class="lname">Last Name:  </label>
+        <input type="text" id="lname" placeholder="last name" required>
+        <label class="email">email:  </label>
+        <input type="email" id="emails" placeholder="your email address" required>
+        
+        <button type="submit" >Submit</button>
+    </form>
+    
+
+</div>   
+</body>
+</html>
+
+```CSS
+input[type=text],input[type=email]{
+    width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+}
+
+.fname::after {
+        content:" *";
+        color: red;
+
+      }
+.lname::after {
+        content:" *";
+        color: red;
+      }
+
+.email::after{
+          content:"*";
+          color: red;
+      }
+
+
 
 ---
 
