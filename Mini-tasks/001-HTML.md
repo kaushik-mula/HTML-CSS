@@ -7,13 +7,8 @@
 ```HTML
     <html lang="en">
     <head>
-        
         <title>Document </title>
     </head>
-<!--         <body> 
-                guvi
-       </title>
-     </head>  -->
     <body>
         <h1>guvi</h1>
     <div>
@@ -29,21 +24,26 @@
 ```
 2. Try the below one
 
+
 ```HTML
 <html lang="en">
     <head>
-        <title>Document
-            <body>
-                guvi
+        <title>Document </title>
     </head>
+    <body>
+        <h1>guvi</h1>
     <div>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        <p> Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
         <div>
             <div>
-                Guvi Geek Network
+                <p> Guvi Geek Network</p>
             </div>
+        </div>
+    </div>
         </body>
     </html>
+    
+
 ```
 
 ---
