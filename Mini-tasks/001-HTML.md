@@ -112,7 +112,7 @@ input[type=text],input[type=email]{
 
 ---
 
-4. Use certain HTML elements to display the following in a HTML page.
+4. Use certain HTML elements to display the following in a HTML page.   
 
 - Programming Language
   - JavaScript
@@ -130,6 +130,80 @@ input[type=text],input[type=email]{
   - MySQL
   - MongoDB
   - Cansandra
+----------------------------------------------------------------------------------------
+```html
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <title>Task_4</title>
+</head>
+<body>
+    <div class="container">
+        
+        <ul class="pl">
+            <li>Programming Language</li>
+        </ul>
+        <ul class="js" style="list-style-type:circle;">
+            <li>JavaScript</li>
+
+        </ul>
+        <ol class="child" type="a">
+            <li>Angular</li>
+            <li>React</li>
+            <li>Vue.js</li>
+        </ol>
+        <ul class="js" style="list-style-type:circle;">
+            <li>Python</li>
+
+        </ul>
+        <ol class="child" type="a">
+            <li>Django Framework</li>
+            <li>Flask Framework</li>
+           
+        </ol>
+
+        <ul class="js" style="list-style-type:circle;">
+            <li>Java</li>
+
+        </ul>
+        <ol class="child" type="a">
+            <li>Spring</li>
+            <li>Maven</li>
+            <li>Hibernate</li>
+        </ol>
+
+        <ul class="pl">
+            <li>Database</li>
+        </ul>
+        <ul class="js" style="list-style-type:circle;">
+            <li>MySQL</li>
+            <li>MongoDBL</li>
+            <li>CansandraL</li>
+
+        </ul>
+            
+    </div>
+    
+</body>
+</html>
+
+
+```css
+
+    .js{
+    margin-left: 2rem;
+
+}
+
+.child {
+    margin-left: 4rem;
+}
+
+    
 
 ---
 
